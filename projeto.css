@@ -4,14 +4,96 @@
 }
 
 header{
-    background-color: black;
+  
     align-items: center;
-    padding: 2px;
+    padding: 1px;
 
 
 }
 body{
 
     text-align: center;
-    background-color:rgb(184, 173, 167);
+    background-image: url('fundorealmadrid.webp');
+    background-repeat: no-repeat;
+    background-size: 1300px;
 }
+
+
+.foto-container{
+    margin: 120px;
+    max-width: 100%;
+    height: auto;
+    border: 1px;
+}
+.foto-texto{
+    color: black;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    line-height: 5.5rem;
+    max-width:50rem;
+    margin: auto;
+
+}
+    
+h1{
+    color: black;
+    font-size: 4.2rem;
+    border: 200px;
+    border-color: antiquewhite;
+}
+
+.imagem-container{
+    margin: 20px;
+     max-width: 100%;
+    height: auto;
+    border: 1px;
+}
+
+.imagem-texto{
+    margin: 10px;
+    font-size:1.3rem;
+    max-width: 50rem;
+    margin: auto;
+
+}
+
+.intro{
+    background-color: #e26c0b;
+    text-align: center;
+    padding: 5rem 0;
+    margin:20px;
+}
+.intro .box{
+
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.intro .title{
+    font-weight:bold;
+    font-size: 2.5rem;
+    margin-bottom:3rem;
+    color:black
+}
+.intro .subtitle{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color:black;
+}
+
+.botao{
+    background-color: orangered;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+ 
