@@ -60,10 +60,11 @@ h1{
 .intro{
     background-color: #e26c0b;
     text-align: center;
-    padding: 5rem 0;
-    margin:20px;
+    padding: 0rem 0;
+    margin:0px;
 }
 .intro .box{
+    
 
     max-width: 50rem;
     margin: auto;
@@ -95,5 +96,52 @@ h1{
     cursor: pointer;
 }
 
+.botao1{
+    position: relative;
+    top: 170px;
+    left: -400px;
+    background-color: orangered;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
+.botao2{
+    position: relative;
+    top: 108px;
+    left: 7px;
+    background-color: orangered;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.botao3{
+    position: relative;
+    top: 48px;
+    left: 400px;
+    background-color: orangered;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
  
