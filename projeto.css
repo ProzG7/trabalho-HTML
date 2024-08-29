@@ -71,13 +71,22 @@ h1{
     padding: 1rem;
 }
 
+@font-face {
+    font-family: 'ethnocentric';
+    src: url('ethnocentric-rg.otf') format('truetype');
+  }
 .intro .title{
-    font-weight:bold;
+    
+    font-style: oblique;
+    font-weight: bold;
     font-size: 2.5rem;
+    font-family: 'ethnocentric';
+    src: url('ethnocentric-rg.otf') format('truetype');
     margin-bottom:3rem;
     color:black
 }
 .intro .subtitle{
+    
     font-size: 1.8rem;
     line-height: 3rem;
     color:black;
@@ -99,7 +108,7 @@ h1{
 .botao1{
     position: relative;
     top: 170px;
-    left: -400px;
+    left: -440px;
     background-color: orangered;
     border: none;
     color: black;
@@ -107,7 +116,11 @@ h1{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-style: oblique;
+    font-weight: bold;
     font-size: 20px;
+    font-family: 'ethnocentric';
+    src: url('ethnocentric-rg.otf') format('truetype');
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -123,7 +136,11 @@ h1{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-style: oblique;
+    font-weight: bold;
     font-size: 20px;
+    font-family: 'ethnocentric';
+    src: url('ethnocentric-rg.otf') format('truetype');
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -131,8 +148,8 @@ h1{
 
 .botao3{
     position: relative;
-    top: 48px;
-    left: 400px;
+    top: 46px;
+    left: 450px;
     background-color: orangered;
     border: none;
     color: black;
@@ -140,7 +157,11 @@ h1{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-style: oblique;
+    font-weight: bold;
     font-size: 20px;
+    font-family: 'ethnocentric';
+    src: url('ethnocentric-rg.otf') format('truetype');
     margin: 4px 2px;
     cursor: pointer;
 }
